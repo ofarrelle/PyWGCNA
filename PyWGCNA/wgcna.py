@@ -76,8 +76,8 @@ class WGCNA(GeneExp):
     :type save: bool
     :param outputPath: path you want to save all you figures and object (default: '', where you rau your script)
     :type outputPath: str
-    :param geneExpr: expression matrix
-    :type geneExpr: geneExp class
+    :param geneExp: expression matrix
+    :type geneExp: geneExp class
     :param datExpr: data expression data that contains preprocessed data
     :type datExpr: anndata
     :param TPMcutoff: cut off for removing genes that expressed under this number along samples
